@@ -29,11 +29,11 @@ int fibonacci(int n) {
 		return 1;
 	} else {
 		for(int i =0; i < n; i++) {
-			cout<<prox<<endl;
 			prox = ant + prox;
 			ant = prox - ant;
 		}
 	}
+	return ant;
 }
 
 int fibonnacciRecursiva(int n) {
@@ -129,11 +129,11 @@ main() {
  //free(r);
  //free(n);
  //funcaoX();
- //cout<<pot2(2,5)<<endl;
+ //cout<<pot2(2,-5)<<endl;
  //cout<<pot(5)<<endl;
  //cout<<fatorial(5)<<endl;
  //cout<<fatorialRecursiva(5)<<endl;
- //fibonacci(24);
+ cout<<fibonacci(20);
  //cout<<fibonnacciRecursiva(50);
- mmc(44,16);
+ //mmc(44,16);
 }
