@@ -48,7 +48,7 @@ void inserir_binaria(no **Raiz, tipo_dado valor) {
 	} else if( valor > (*Raiz)->dado ) {
 		inserir_binaria(&(*Raiz)->dir, valor);	
 	} else {
-		cout<<"Elemento já existente";
+		cout<<"Elemento jï¿½ existente";
 	}
 }
 
@@ -90,7 +90,4 @@ void remover_binaria(no **Raiz, tipo_dado valor) {
 	} else {
 		cout<<"Elemento inexistente";
 	}
-}
-
-main() {
 }
