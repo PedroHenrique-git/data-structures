@@ -1,5 +1,5 @@
-#include<iostream>;
-#include "teste.h";
+#include<iostream>
+#include "teste.h"
 using namespace std;
 
 main() {
